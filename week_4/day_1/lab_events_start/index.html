@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reading List App</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <h1>Events Practice!</h1>
+
+  <!-- 1. Create a button which, when clicked, shows "This has been clicked!" on the page in a paragraph-->
+  <h2>Button</h2>
+  <button id="button" type="button">Click Me!</button>
+  <p id="button-result">Button not clicked!</p>
+
+  <!-- 2. Create a text input which will show what has been typed onto the page in a paragraph -->
+<h2>Inputs</h2>
+<input id="input" type="text"/>
+<p id="input-result">Nothing typed yet.</p>
+
+  <!-- 3. Create a select which will have the option of choosing "Pepperoni" or "Margharita" and show the selection on the page in a paragraph-->
+<h2>Select</h2>
+<select id="select">
+  <option disabled selected> Choose Pizza!</option>
+  <option value = "Pepperoni">Pepperoni</option>
+  <option value = "Margharita">Margharita</option>
+  </select>
+<p id="select-result">No pizza selected!</p>
+
+  <!-- Extension -->
+
+  <!-- 4. Create a form which will have 2 inputs. One for a name, and one for an age and when submitted, shows both on the page in a sentence reading "Hi, NAME. You are AGE years old" -->
+
+  <h2>Form</h2>
+  <form id ="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+
+    <label for="age">Age</label>
+    <input type="numbers" id="age">
+
+    <button type="submit" id="submit_nameAndAge">Submit</button></form>
+    <p id="form-result">Tell us your identity</p>
+
+</body>
+
+</html>
